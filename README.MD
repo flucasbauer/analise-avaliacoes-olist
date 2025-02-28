@@ -15,12 +15,12 @@ As querys e medidas DAX elaboradas estão disponíveis neste diretório logo aba
 
 - Cálculo para a métrica NPS:  
 <div align="center">
-    <img src="pics-querys/avaliacoes-nps.png" alt="Descrição da Imagem" width="400">
+    <img src="pics-querys/avaliacoes-nps.png" alt="Descrição da Imagem" width="500">
 </div>
 
 - Extraindo dados para realização da análise no BI  
 <div align="center">
-    <img src="pics-querys/avaliacoes-bi.png" alt="Descrição da Imagem" width="400">
+    <img src="pics-querys/avaliacoes-bi.png" alt="Descrição da Imagem" width="500">
 </div>
 
 
@@ -29,17 +29,16 @@ As querys e medidas DAX elaboradas estão disponíveis neste diretório logo aba
 
 - Cálculos para todas as avaliações (as medidas foram criadas separadas)
 <div align="center">
-    <img src="pics-dax/total.png" alt="Descrição da Imagem" width="400
-    ">
+    <img src="pics-dax/total.png" alt="Descrição da Imagem" width="500">
 </div>
 
 - Cálculos para as avaliações com pedidos entregues dentro do prazo estimado(as medidas foram criadas separadas)
 <div align="center">
-    <img src="pics-dax/no-prazo.png" alt="Descrição da Imagem" width="400">
+    <img src="pics-dax/no-prazo.png" alt="Descrição da Imagem" width="500">
 </div>
 
 
 - Cálculos para as avaliações com pedidos entregues atrasados (as medidas foram criadas separadas)
 <div align="center">
-    <img src="pics-dax/atrasos.png" alt="Descrição da Imagem" width="400">
+    <img src="pics-dax/atrasos.png" alt="Descrição da Imagem" width="500">
 </div>
