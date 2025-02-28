@@ -15,14 +15,13 @@ As querys e medidas DAX elaboradas estão disponíveis neste diretório logo aba
 
 - Cálculo para a métrica NPS:  
 <div align="center">
-    <img src="pics-querys/avaliacoes-nps.png" alt="Descrição da Imagem" width="500">
+    <img src="pics-querys/nps.png" alt="Descrição da Imagem" width="500">
 </div>
 
 - Extraindo dados para realização da análise no BI  
 <div align="center">
-    <img src="pics-querys/avaliacoes-bi.png" alt="Descrição da Imagem" width="500">
+    <img src="pics-querys/bi.png" alt="Descrição da Imagem" width="500">
 </div>
-
 
 
 ### Medidas DAX
