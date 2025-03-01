@@ -1,4 +1,4 @@
-# Análise de negócios: avaliações dos clientes
+# Análise de negócios: avaliações
 ### Utilizando a base de dados da Olist
 Projeto desenvolvido como intuito de portfólio com o objetivo de praticar as seguintes habilidades:
 
