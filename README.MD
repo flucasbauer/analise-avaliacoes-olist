@@ -36,30 +36,30 @@ O resultado varia de -100 a +100:
 
 O método quantitativo utilizado para embasar a pesquisa foi o modelo de regressão logística, também conhecido como modelo logit. Esse tipo de abordagem é indicado quando o objeto de estudo possui natureza qualitativa, como ocorre no caso das avaliações dos clientes. Situações em que a resposta de interesse é binária, por exemplo, identificar se a quantidade de fotos disponíveis de um produto aumenta ou reduz a probabilidade de um pedido ser avaliado negativamente, justificam o uso desse modelo. Nesse contexto, a variável resposta assume valores categóricos binários (1 para ocorrência do evento e 0 para não ocorrência), possibilitando a estimação da probabilidade de um determinado resultado. A especificação do modelo pode ser representada pela seguinte equação:
 
-![Link da imagem](apresentacao/equacao-logit.png)
+![Link da imagem](apresentacao/pics/equacao-logit.png)
 
 
 Onde:
 
-- ![Link da imagem](apresentacao/Li.png) = É o logaritmo da razão de chances (log-odds) do evento ocorrer, ou seja, a transformação logit da probabilidade Pi . Essa transformação lineariza a relação entre as variáveis independentes e a variável dependente binária;  
+- ![Link da imagem](apresentacao/pics/Li.png) = É o logaritmo da razão de chances (log-odds) do evento ocorrer, ou seja, a transformação logit da probabilidade Pi . Essa transformação lineariza a relação entre as variáveis independentes e a variável dependente binária;  
 
-- ![Link da imagem](apresentacao/ln.png) = Representa o logaritmo natural da razão entre a probabilidade de sucesso (Pi) e a probabilidade de fracasso (1-Pi). Essa razão é chamada de odds ou chances. A equação transforma uma variável que originalmente varia entre 0 e 1 (probabilidade) em uma variável contínua que varia de −∞ a +∞;	     
+- ![Link da imagem](apresentacao/pics/ln.png) = Representa o logaritmo natural da razão entre a probabilidade de sucesso (Pi) e a probabilidade de fracasso (1-Pi). Essa razão é chamada de odds ou chances. A equação transforma uma variável que originalmente varia entre 0 e 1 (probabilidade) em uma variável contínua que varia de −∞ a +∞;	     
 
-- ![Link da imagem](apresentacao/b1.png) = É o termo constante (intercepto) da regressão, representando o log-odds do evento quando todas as variáveis independentes forem iguais a zero;   
+- ![Link da imagem](apresentacao/pics/b1.png) = É o termo constante (intercepto) da regressão, representando o log-odds do evento quando todas as variáveis independentes forem iguais a zero;   
 
-- ![Link da imagem](apresentacao/parametro-dummy.png) = Parâmetro que indica o efeito da variável qualitativa sobre a variável dependente;
+- ![Link da imagem](apresentacao/pics/parametro-dummy.png) = Parâmetro que indica o efeito da variável qualitativa sobre a variável dependente;
 
-- ![Link da imagem](apresentacao/variavel-dummy.png) = Variável binária que indica a ocorrência ou não de um evento;
+- ![Link da imagem](apresentacao/pics/variavel-dummy.png) = Variável binária que indica a ocorrência ou não de um evento;
 
-- ![Link da imagem](apresentacao/B2Bk.png)= São os coeficientes das variáveis independentes, discretas e contínuas, que indicam o efeito marginal de cada variável sobre o evento;   
+- ![Link da imagem](apresentacao/pics/B2Bk.png)= São os coeficientes das variáveis independentes, discretas e contínuas, que indicam o efeito marginal de cada variável sobre o evento;   
 
-- ![Link da imagem](apresentacao/XiXk.png)= Representam as variáveis independente exploradas mais detalhadamente logo a frente;   
+- ![Link da imagem](apresentacao/pics/XiXk.png)= Representam as variáveis independente exploradas mais detalhadamente logo a frente;   
 
-- ![Link da imagem](apresentacao/termo-erro.png)= É o termo de erro, que capta o efeito de variáveis não observadas que também influenciam o resultado.
+- ![Link da imagem](apresentacao/pics/termo-erro.png)= É o termo de erro, que capta o efeito de variáveis não observadas que também influenciam o resultado.
 
 Os coeficientes estimados pelo modelo representam variações nos log-odds (logaritmo da razão entre a probabilidade do evento acontecer e a probabilidade de ele não acontecer), e não nas probabilidades diretamente. Para que esses coeficientes tenham interpretação prática, é necessário exponencia-los, obtendo então os chamadas odds ratios:
 
-![Link da imagem](apresentacao/odds-ratio.png)
+![Link da imagem](apresentacao/pics/odds-ratio.png)
 
 O odds ratio (razão de chances) indica, *ceteris paribus*, o quanto as chances do evento de interesse se alteram quando há uma variação marginal na variável explicativa.
 
