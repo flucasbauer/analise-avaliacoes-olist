@@ -121,7 +121,7 @@ A Tabela 1 apresenta o conjunto final de todas as variáveis a serem utilizadas 
 # [Clique aqui para acessar a análise dos resultados](apresentacao/análise.pdf)    
 
 
-### Outros atalhos para acesso dos arquivos do projeto
+### Outros atalhos para acesso aos arquivos do projeto
 [Clique aqui](notebook/modelo1.ipynb) para acessar ao notebook do modelo de regressão logística.   
 [Clique aqui](querys/analise-2/2-query.sql) para acessar as querys elaboradas para a estruturação da base de dados utilizada no modelo.     
 [Clique aqui](https://app.powerbi.com/view?r=eyJrIjoiMDk0ZDA5MTItODYwZi00YjUwLTg4YmEtZDE1NDhjNmM3ODk1IiwidCI6IjMwYjFlNWVhLWUwNWUtNGE3Ny05OWQzLWEzYzYyYzMyODc4NCJ9) para acessar aos indicadores e gráficos da métrica NPS criados no Power BI.
