@@ -12,7 +12,7 @@ Atualmente, as avaliações dos clientes representam um dos principais sinais de
 ## 3. Metódos
 ### 3.1. Métrica Net Promoter Score (NPS)
 
-Inicialmente utilizei a NPS, que é amplamente aplicada no mercado para medir a satisfação dos clientes. Ela é baseada em apenas uma pergunta: 
+Inicialmente foi utilizado a métrica NPS, que é amplamente aplicada no mercado para medir a satisfação dos consumidores. Ela é baseada em apenas uma pergunta: 
 
 *Em uma escala de 0 a 10, o quanto você recomendaria nossa empresa/produto/serviço para um amigo ou colega?*
 
