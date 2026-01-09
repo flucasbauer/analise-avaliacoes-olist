@@ -23,7 +23,7 @@ Entretanto, foi necessário realizar uma adaptação da metodologia NPS consider
 
 O indicador pode ser calcula pela seguinte equação:
 
-![Link da imagem](apresentacao/equacao-nps.png)
+![Link da imagem](apresentacao/pics/equacao-nps.png)
 
 O resultado varia de -100 a +100:
 
