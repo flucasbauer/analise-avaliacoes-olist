@@ -41,9 +41,9 @@ O método quantitativo utilizado para embasar a pesquisa foi o modelo de regress
 
 Onde:
 
-- ![Link da imagem](apresentacao/Li.png) = É o logaritmo da razão de chances (log-odds) do evento ocorrer, ou seja, a transformação logit da probabilidade P_i . Essa transformação lineariza a relação entre as variáveis independentes e a variável dependente binária;  
+- ![Link da imagem](apresentacao/Li.png) = É o logaritmo da razão de chances (log-odds) do evento ocorrer, ou seja, a transformação logit da probabilidade Pi . Essa transformação lineariza a relação entre as variáveis independentes e a variável dependente binária;  
 
-- ![Link da imagem](apresentacao/Ln.png) = Representa o logaritmo natural da razão entre a probabilidade de sucesso (P_i) e a probabilidade de fracasso (〖1-P〗_i). Essa razão é chamada de odds ou chances. A equação transforma uma variável que originalmente varia entre 0 e 1 (probabilidade) em uma variável contínua que varia de −∞ a +∞;	     
+- ![Link da imagem](apresentacao/ln.png) = Representa o logaritmo natural da razão entre a probabilidade de sucesso (Pi) e a probabilidade de fracasso (1-Pi). Essa razão é chamada de odds ou chances. A equação transforma uma variável que originalmente varia entre 0 e 1 (probabilidade) em uma variável contínua que varia de −∞ a +∞;	     
 
 - ![Link da imagem](apresentacao/b1.png) = É o termo constante (intercepto) da regressão, representando o log-odds do evento quando todas as variáveis independentes forem iguais a zero;   
 
