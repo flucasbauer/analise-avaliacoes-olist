@@ -16,7 +16,7 @@ Atualmente, as avaliações dos clientes representam um dos principais sinais de
 
 ### 3.1. Modelo de regressão logística
 
-O método quantitativo utilizado para embasar a pesquisa foi o modelo de regressão logística, também conhecido como modelo logit. Esse tipo de abordagem é indicado quando o objeto de estudo possui natureza qualitativa, como ocorre no caso das avaliações dos clientes. Situações em que a resposta de interesse é binária, por exemplo, identificar se a quantidade de fotos disponíveis de um produto aumenta ou reduz a probabilidade de um pedido ser avaliado negativamente, justificam o uso desse modelo. Nesse contexto, a variável resposta assume valores categóricos binários (1 para ocorrência do evento e 0 para não ocorrência), possibilitando estimar a probabilidade de um determinado resultado. A especificação do modelo pode ser representada pela seguinte equação:
+O método quantitativo utilizado para embasar a pesquisa foi o modelo logit também conhecido como regressão logística. Esse tipo de abordagem é indicada quando o objeto de estudo possui natureza qualitativa, como ocorre no caso das avaliações dos clientes. Nesse contexto, a variável dependente (y) assume valores categóricos binários (1 para ocorrência do evento e 0 para não ocorrência), possibilitando estimar a probabilidade de um determinado evento.
 
 ### **(Projeto em andamento)**
 
