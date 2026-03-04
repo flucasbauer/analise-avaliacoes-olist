@@ -1,40 +1,22 @@
+
+### **(Projeto em alteração)**
+
 # Análise das avaliações dos clientes da loja de marketplace Olist
 
 ## 1. Contexto
 
-Atualmente, as avaliações dos clientes representam um dos principais sinais de qualidade, credibilidade e reputação no mercado. Avaliações negativas tendem a influenciar diretamente a decisão de compra, levando o consumidor a desistir mesmo quando o produto atende às suas necessidades, enquanto avaliações positivas exercem o efeito oposto. Pela ótica das empresas, manter elevados níveis de satisfação reflete fidelização, diferenciação e potencial de crescimento de receita, contribuindo para a maximização do lucro. Contudo, a análise de avaliações de clientes envolve dados majoritariamente categóricos e textuais, sendo desafios metodológicos que demandam o uso de técnicas estatísticas avançadas para a interpretação.
+Atualmente, as avaliações dos clientes representam um dos principais sinais de qualidade, credibilidade e reputação no mercado. Avaliações negativas tendem a influenciar diretamente a decisão de compra, levando o consumidor a desistir mesmo quando o produto atende às suas necessidades, enquanto avaliações positivas exercem o efeito oposto. Pela ótica das empresas, manter elevados níveis de satisfação reflete em fidelização, diferenciação e potencial de crescimento de receita, contribuindo para a maximização do lucro. Contudo, a análise de avaliações de clientes envolve dados majoritariamente categóricos e textuais, sendo desafios metodológicos onde, técnicas estatísticas podem oferecer alternativas que possibilitam a sua interpretação.
 
 ## 2. Objetivos
 
-- Descobrir os principais motivos para as avaliações negativas dos clientes;
-- Sugerir ações que possam maximizar a satisfação dos clientes e consequentemente sua avaliação.
+- Descobrir os principais fatores para as avaliações negativas dos clientes;
+- Recomendar ações que possam maximizar a satisfação dos clientes e consequentemente sua avaliação.
 
 ## 3. Metódos
-### 3.1. Métrica Net Promoter Score (NPS)
 
-Inicialmente foi utilizado a métrica NPS, que é amplamente aplicada no mercado para medir a satisfação dos consumidores. Ela é baseada em apenas uma pergunta: 
+### 3.1. Modelo de regressão logística
 
-*Em uma escala de 0 a 10, o quanto você recomendaria nossa empresa/produto/serviço para um amigo ou colega?*
-
-Notas entre 9 e 10 são classificados como Promotores, ou seja, consumidores satisfeitos e propensos a comportamentos que geram valor para o produto, serviço ou marca, como a recompra, a fidelização e a recomendação positiva a potenciais novos clientes. Por outro lado, clientes que atribuem notas entre 1 a 6 são classificados como Detratores, representando indivíduos menos propensos à fidelização ou à geração de valor para o negócio. Já os clientes que respondem com notas entre 7 e 8 são considerados Neutros ou Passivos.
-
-
-Entretanto, foi necessário realizar uma adaptação da metodologia NPS considerando a característica das avaliações adotadas pela empresa Olist, onde as notas de avaliação possuem uma escala menor de 1 a 5. Nesse sentido, as notas de 4 e 5 foram atribuídas a clientes promotores e de 1 a 3 a clientes detratores. A categoria de clientes neutros ou passivos foram desconsiderados devido a limitação na escala das notas.
-
-O indicador pode ser calcula pela seguinte equação:
-
-![Link da imagem](apresentacao/pics/equacao-nps.png)
-
-O resultado varia de -100 a +100:
-
-- Acima de 50: Excelente;
-- Entre 0 e 50: Bom;
-- Abaixo de 0: Precisa de melhorias.
-
-
-### 3.2. Modelo de regressão logística
-
-O método quantitativo utilizado para embasar a pesquisa foi o modelo de regressão logística, também conhecido como modelo logit. Esse tipo de abordagem é indicado quando o objeto de estudo possui natureza qualitativa, como ocorre no caso das avaliações dos clientes. Situações em que a resposta de interesse é binária, por exemplo, identificar se a quantidade de fotos disponíveis de um produto aumenta ou reduz a probabilidade de um pedido ser avaliado negativamente, justificam o uso desse modelo. Nesse contexto, a variável resposta assume valores categóricos binários (1 para ocorrência do evento e 0 para não ocorrência), possibilitando a estimação da probabilidade de um determinado resultado. A especificação do modelo pode ser representada pela seguinte equação:
+O método quantitativo utilizado para embasar a pesquisa foi o modelo de regressão logística, também conhecido como modelo logit. Esse tipo de abordagem é indicado quando o objeto de estudo possui natureza qualitativa, como ocorre no caso das avaliações dos clientes. Situações em que a resposta de interesse é binária, por exemplo, identificar se a quantidade de fotos disponíveis de um produto aumenta ou reduz a probabilidade de um pedido ser avaliado negativamente, justificam o uso desse modelo. Nesse contexto, a variável resposta assume valores categóricos binários (1 para ocorrência do evento e 0 para não ocorrência), possibilitando estimar a probabilidade de um determinado resultado. A especificação do modelo pode ser representada pela seguinte equação:
 
 ![Link da imagem](apresentacao/pics/equacao-logit.png)
 
@@ -63,7 +45,7 @@ Os coeficientes estimados pelo modelo representam variações nos log-odds (loga
 
 O odds ratio (razão de chances) indica, *ceteris paribus*, o quanto as chances do evento de interesse se alteram quando há uma variação marginal na variável explicativa.
 
-#### 3.2.1. Variáveis do modelo
+#### 3.1.1. Variáveis do modelo
 
 A seguir, são apresentadas as variáveis extraídas da base de dados da Olist:
 - review_score: Avaliação do cliente (escala de 1 a 5);
