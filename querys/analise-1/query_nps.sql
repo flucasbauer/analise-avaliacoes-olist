@@ -1,3 +1,5 @@
+-- cálculo do indicador NPS
+
 with avaliacoes as (
     select
         t1.order_id,
@@ -34,7 +36,7 @@ nps as (
         sum(case when status_nota = 'Promotores' then 1 else 0 end) as promotores,
         sum(case when status_nota = 'Detratores' then 1 else 0 end) as detratores
     from categoria
-    where saldo_entrega >= 0  -- filtra apenas entregas dentro do prazo
+    where saldo_entrega <= 0  -- alterar conforme análise desejada (<= para pedidos entregues dentro do prazo, > para pedidos entregues fora do prazo)
 )
 
 select
