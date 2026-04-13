@@ -7,16 +7,15 @@
 
 Atualmente, as avaliações dos clientes representam um dos principais sinais de qualidade, credibilidade e reputação no mercado. Avaliações negativas tendem a influenciar diretamente a decisão de compra, levando o consumidor a desistir mesmo quando o produto atende às suas necessidades, enquanto avaliações positivas exercem o efeito oposto. Pela ótica das empresas, manter elevados níveis de satisfação reflete em fidelização, diferenciação e potencial de crescimento de receita, contribuindo para a maximização do lucro. Contudo, a análise de avaliações de clientes envolve dados majoritariamente categóricos e textuais, sendo desafios metodológicos onde, técnicas estatísticas podem oferecer alternativas que possibilitam a sua interpretação.
 
-## 2. Objetivos
+## 2. Objetivo
 
-- Descobrir os principais fatores para as avaliações negativas dos clientes;
-- Recomendar ações com potencial de maximizar a satisfação dos clientes e consequentemente sua avaliação.
+- Descobrir os principais fatores que influenciam para avaliações negativas dos clientes.
 
 ## 3. Metódos
 
 ### 3.1. Modelo de regressão logística
 
-O método quantitativo utilizado para embasar a pesquisa foi o modelo logit também conhecido como regressão logística. Esse tipo de abordagem é indicada quando o objeto de estudo possui natureza qualitativa, como ocorre no caso das avaliações dos clientes. Nesse contexto, a variável dependente (y) assume valores categóricos binários (1 para ocorrência do evento e 0 para não ocorrência), possibilitando estimar a probabilidade de um determinado evento (Gujarati, 2011).
+O método quantitativo utilizado para embasar a pesquisa foi o modelo logit também conhecido como regressão logística. Essa abordagem é indicada quando o objeto de estudo possui natureza qualitativa, como ocorre no caso das avaliações dos clientes. Nesse contexto, a variável dependente (y) assume valores categóricos binários (1 para ocorrência do evento e 0 para não ocorrência), possibilitando estimar a probabilidade de um determinado evento acontecer (Gujarati, 2011).
 
 A variável dependente foi categorizada com base na métrica Net Promoter Score (NPS), adaptada à escala de avaliações dos pedidos da Olist, que varia de 1 a 5. Assim sendo, as notas 4 e 5 foram classificadas como clientes promotores, enquanto as notas de 1 a 3 foram consideradas como clientes detratores.
 
@@ -29,7 +28,7 @@ Para a seleção das variáveis independentes, entendidas como aquelas que podem
   <img src="images/nps.png" width="300"/>
 </p> 
 
-Tal abordagem foi utilizada para analisar a diferença dessa métrica entre pedidos entregues dentro e fora do prazo, conforme indicado pelo estudo de Andrade e Lelis (2024), que, atrasos nas entrega é um fator crítico de insatisfação no comércio digital. O resultado dessa comparação é aprensetado no gráfico da Figura 1 a seguir.
+Tal abordagem foi utilizada para analisar a diferença dessa métrica entre pedidos entregues dentro e fora do prazo, visto que, segundo o estudo de Andrade e Lelis (2024), atrasos nas entregas é um fator crítico de insatisfação no comércio digital. O resultado dessa análise é aprensetado no gráfico da Figura 1 a seguir.
 
 <p align="center">
   <strong>Figura 1 - Comparação da métrica NPS para pedidos entregues no prazo e fora do prazo.</strong>
@@ -62,14 +61,14 @@ Onde:
 
 <img src="images/erro.png" width="29"/> = É o termo de erro, que capta o efeito de variáveis não observadas que também influenciam o resultado.
 
-Os coeficientes estimados pelo modelo representam variações nos log-odds, e não nas probabilidades diretamente. Para que esses coeficientes tenham interpretação prática, é necessário exponencia-los, obtendo então os chamadas odds ratios, para isso, utiliza-se a seguinte fórmula:
+Os coeficientes estimados pelo modelo representam variações nos log-odds, e não nas probabilidades diretamente. Para que esses coeficientes tenham interpretação prática, é necessário exponencia-los, obtendo então os chamados odds ratios, encontrado pela seguinte fórmula:
 
 (3)
 <p align="center">
   <img src="images/odds-ratios.png" width="100"/>
 </p>
 
-Com isso, obtêm-se as especificações necessárias para a análise da probabilidade de avaliações negativas por parte dos clientes, em conformidade com as recomendações da literatura. O próximo tópico é dedicado exclusivamente à análise dos resultados do modelo logit.
+Com isso, obtêm-se as especificações necessárias para a análise da probabilidade das avaliações negativas, em conformidade com as recomendações da literatura. O próximo tópico é dedicado exclusivamente à análise dos resultados do modelo logit.
 
 ## 4. Resultados
 A Figura 2 apresenta os principais resultados do modelo logit estimado, incluindo o pseudo R² como medida de ajuste, os coeficientes estimados, os erros-padrão, os níveis de significância estatística e os respectivos intervalos de confiança.
