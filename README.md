@@ -1,0 +1,17 @@
+## **Análise das Avaliações dos Clientes**
+
+Este repositório concentra os arquivos referente a um estudo sobre análise de avaliações de clientes que foi desenvolvido com o objetivo de aplicar conceitos microeconômicos, técnicas de análise e ciência de dados utilizando Python e SQL. O projeto foi elaborado a partir do tema do meu Trabalho de Conclusão de Curso (TCC) que emprega o modelo Logit a fim de explorar fatores que influenciam as avaliações dos clientes e apoiar a tomada de decisão.
+
+### **Materiais do projeto**
+
+**- Apresentação Executiva:** [clique aqui](./apresentacao/apresentacao-executiva.pdf)
+
+**- Sumário Executivo:** [clique aqui](./apresentacao/sumario-executivo.pdf)
+
+**- Estudo Completo:** [clique aqui](./relatorio/estudo-completo.pdf)
+
+**- Consultas SQL ao banco de dados:** 
+1. Cálculo do indicador NPS: [clique aqui](querys/analise-1/query_nps.sql)
+2. Estruturação da base de dados para o modelo logit: [clique aqui](querys/analise-1/query_db_logit.sql)
+
+**- Script Python para o modelo logit:** [clique aqui](notebook/modelo.ipynb)
