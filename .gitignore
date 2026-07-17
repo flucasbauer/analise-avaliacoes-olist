@@ -1,4 +1,4 @@
-# Pastas locais
+# pastas locais
 arvore-hipoteses/
 dataviz/
 images/
@@ -7,12 +7,12 @@ theme/
 txt/
 xlsx/
 
-# Arquivos auxiliares da apresentação
+# apresentacao
 apresentacao/*
 !apresentacao/apresentacao-executiva.pdf
 !apresentacao/sumario-executivo.pdf
 
-# Notebooks auxiliares
+# notebooks auxiliares
 notebook/estatística-descritiva.ipynb
 notebook/modelo1.ipynb
 notebook/modelo2.ipynb
@@ -41,3 +41,6 @@ querys/analise-1/query_review_4.sql
 querys/analise-1/teste.sql
 querys/analise-1/independente_x3_ajustando_3 as (.txt
 querys/analise-2/
+
+# pasta local
+images/
