@@ -1,0 +1,43 @@
+# Pastas locais
+arvore-hipoteses/
+dataviz/
+images/
+keys/
+theme/
+txt/
+xlsx/
+
+# Arquivos auxiliares da apresentação
+apresentacao/*
+!apresentacao/apresentacao-executiva.pdf
+!apresentacao/sumario-executivo.pdf
+
+# Notebooks auxiliares
+notebook/estatística-descritiva.ipynb
+notebook/modelo1.ipynb
+notebook/modelo2.ipynb
+notebook/modelo3.ipynb
+
+# SQLs auxiliares
+querys/analise-1/analise.sql
+querys/analise-1/avaliacoes.sql
+querys/analise-1/categorias.sql
+querys/analise-1/db_reg_log.sql
+querys/analise-1/db_reg_log-2.sql
+querys/analise-1/db_reg_log-3.sql
+querys/analise-1/query_6.sql
+querys/analise-1/query_7.sql
+querys/analise-1/query_8.sql
+querys/analise-1/query_9.sql
+querys/analise-1/query_10.sql
+querys/analise-1/query_11.sql
+querys/analise-1/query_12.sql
+querys/analise-1/query_datas.sql
+querys/analise-1/query_nps_total.sql
+querys/analise-1/query_review_1.sql
+querys/analise-1/query_review_2.sql
+querys/analise-1/query_review_3.sql
+querys/analise-1/query_review_4.sql
+querys/analise-1/teste.sql
+querys/analise-1/independente_x3_ajustando_3 as (.txt
+querys/analise-2/
