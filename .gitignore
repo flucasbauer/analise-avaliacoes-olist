@@ -13,10 +13,10 @@ apresentacao/*
 !apresentacao/sumario-executivo.pdf
 
 # notebooks auxiliares
-notebook/estatística-descritiva.ipynb
-notebook/modelo1.ipynb
-notebook/modelo2.ipynb
-notebook/modelo3.ipynb
+notebooks/estatística-descritiva.ipynb
+notebooks/modelo1.ipynb
+notebooks/modelo2.ipynb
+notebooks/modelo3.ipynb
 
 # SQLs auxiliares
 querys/analise-1/analise.sql
